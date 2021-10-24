@@ -2,7 +2,7 @@ title: "دليل ماركداون"
 url: https://guide.dawin.io/ # site url
 baseurl: "" # apply repo name if use it under gh-pages branch
 
-repo: https://github.com/mattcone/markdown-guide
+repo: https://github.com/dawin-editor/markdown-guide-arabic
 comments: false
 
 plugins:

@@ -16,7 +16,7 @@
 
 <div class="alert alert-info">
 
-<i class="fas fa-info-circle"></i> <strong>ملاحظة:</strong> استخدمتُ Jekyll لإنشاء "دليل ماركداون" (هذا الدليل). يمكنك عرض الكود المصدري في [Github](https://github.com/mattcone/markdown-guide).
+<i class="fas fa-info-circle"></i> <strong>ملاحظة:</strong> استخدمتُ Jekyll لإنشاء "دليل ماركداون" (هذا الدليل). يمكنك عرض الكود المصدري في [Github](https://github.com/dawin-editor/markdown-guide-arabic).
 
 </div>
 

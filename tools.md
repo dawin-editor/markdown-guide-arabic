@@ -10,7 +10,7 @@ last_modified_at: 2021-08-03
     <div class="card" style="width: 16rem; height: 15rem;">
       <div class="card-body">
         <h4 class="card-title no-anchor" style="margin-top: -20px;"><span class="emoji" style="font-size:30px">👋</span>&nbsp;&nbsp;&nbsp;مرحبا!</h4>
-        <p class="card-text">هذه هي بداية الدليل الشامل لأدوات ماركداون. تجميع كل هذه الأدوات سيستغرق بعض الوقت! <a href="https://github.com/mattcone/markdown-guide/wiki/Markdown-tool-directory">تعلم كيف تساهم.</a></p>
+        <p class="card-text">هذه هي بداية الدليل الشامل لأدوات ماركداون. تجميع كل هذه الأدوات سيستغرق بعض الوقت! <a href="https://github.com/dawin-editor/markdown-guide-arabic/wiki/Markdown-tool-directory">تعلم كيف تساهم.</a></p>
       </div>
     </div>
   </div>

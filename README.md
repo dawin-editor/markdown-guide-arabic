@@ -1,6 +1,6 @@
 # Markdown Guide
 
-[![Build Status](https://github.com/mattcone/markdown-guide/workflows/tests/badge.svg?branch=master)](https://github.com/mattcone/markdown-guide/actions)
+[![Build Status](https://github.com/dawin-editor/markdown-guide-arabic/workflows/tests/badge.svg?branch=master)](https://github.com/dawin-editor/markdown-guide-arabic/actions)
 
 _[The Markdown Guide](https://www.guide.dawin.io)_ is a comprehensive Markdown reference designed for both novices and experts. It was born out of frustration with existing Markdown references that are incomplete and inadequate.
 
@@ -19,7 +19,7 @@ It can be helpful to preview changes on your computer before opening a pull requ
 
 ### Adding tools
 
-See [this page](https://github.com/mattcone/markdown-guide/wiki/Markdown-tool-directory) for information about adding applications to the [Markdown tools directory](https://www.guide.dawin.io/tools/).
+See [this page](https://github.com/dawin-editor/markdown-guide-arabic/wiki/Markdown-tool-directory) for information about adding applications to the [Markdown tools directory](https://www.guide.dawin.io/tools/).
 
 ## Deployment
 
