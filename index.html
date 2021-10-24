@@ -1,0 +1,82 @@
+---
+title: Home
+---
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+{% include head.html %}
+
+<body>
+  {% include nav.html %}
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container">
+      <img class="index_logo" src="/assets/images/markdown-mark-Blue.svg" alt="Markdown logo">
+      <p><b>دليل الماركداون</b> هو دليل مرجعي مجاني ومفتوح المصدر يشرح كيفية استخدام Markdown، وهي لغة ترميز بسيطة
+        وسهلة الاستخدام يمكنك استخدامها لتنسيق أي مستند تقريبًا.</p>
+      <p><a class="btn btn-outline-inverse btn-lg" href="/getting-started/" role="button">إبدأ التعلم</a></p>
+    </div>
+  </div>
+  {% if jekyll.environment == "production" %}<center>
+    <div class="horizontal" data-ea-publisher="markdownguide" data-ea-type="image"></div>
+  </center>{% endif %}
+  <div class="container">
+    <div class="md-guide-feature">
+      <h2 class="no-anchor text-blue">كل ما تحتاجه لتعلم ماركداون.</h2>
+      <p class="lead" style="margin-bottom: 60px">
+        تسهّل ماركداون الكتابة على الويب وتسرّعها. يعلّمك <b>دليل ماركداون</b> كيف تستخدمها
+      </p>
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="/getting-started/">
+            <div class="icon">
+              <i class="fas fa-edit text-blue"></i>
+            </div>
+          </a>
+          <h4 class="no-anchor">تعلّم التفاصيل.</h4>
+          <p>
+            ابدأ في استخدام ماركداون حالًا باتّباع دليل <a href="/getting-started/">البداية</a>. إنّه مُصمَّم
+            للجميع، حتى للمبتدئين.</p>
+        </div>
+        <div class="col-sm-4">
+          <a href="/basic-syntax/">
+            <div class="icon">
+              <i class="fas fa-book-open text-blue"></i>
+            </div>
+          </a>
+          <h4 class="no-anchor">تعمّق في قواعد ماركداون.</h4>
+          <p>سواء كنت جديدًا في ماركداون أو محترفًا متمرّسًا، ستجد إجابات لأسئلة تنسيقك في <a href="/basic-syntax/">صفحة
+              القواعد الأساسية</a>.
+          </p>
+
+        </div>
+        <div class="col-sm-4">
+          <a href="/extended-syntax/">
+            <div class="icon">
+              <i class="fas fa-code text-blue"></i>
+            </div>
+          </a>
+          <h4 class="no-anchor">حسّنها قليلًا.</h4>
+          <p>حسّن مستندات ماركداون باستخدام <a href="/extended-syntax/">القواعد الموسّعة</a> لإنشاء الجداول، وكتل
+            الأكواد البرمجية، والروابط التلقائية، والمزيد.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <div class="md-guide-feature">
+      <h2 class="no-anchor">ابق مطّلعًا.</h2>
+      <p class="lead text-secondary ">اشترك الآن في الموقع لتحصل على الإشعارات أولًا بأول حول <b>دليل ماركداون</b></p>
+      <br />
+      <a class="btn btn-default btn-lg"
+         href="https://abdelhadi.us7.list-manage.com/subscribe?u=9999f03885e9bdcba8a67d844&id=81226bf11f"
+         style="margin-top: -10px">ابق مطلعًا
+        على التحديثات</a>
+    </div>
+  </div>
+  {% include footer.html %}
+</body>
+
+</html>

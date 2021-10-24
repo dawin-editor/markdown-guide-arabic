@@ -1,0 +1,170 @@
+/* @import url(//cdn.rawgit.com/rtaibah/dubai-font-cdn/master/dubai-font.css); */
+@import url(//fonts.googleapis.com/earlyaccess/notonaskharabicui.css);
+@import url("search.css");
+
+html,
+body {
+  font-family: "Noto Naskh Arabic UI", sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff;
+}
+
+p,
+li,
+ol {
+  font-size: 18px;
+}
+
+.text-blue,
+a {
+  color: #2368a0;
+}
+.bg-blue {
+  background-color: #2368a0;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(225, 247, 251, 0.9);
+}
+.mdg-nav {
+  font-size: 0.9rem;
+}
+
+.jumbotron {
+  background: linear-gradient(
+    0deg,
+    rgba(235, 246, 250, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  color: rgb(36, 36, 36);
+  padding: 90px 0 80px 0;
+  border-radius: 0;
+}
+
+.jumbotron .container {
+  text-align: center;
+}
+
+.jumbotron p {
+  padding: 40px 0 0 0;
+  font-size: 28px;
+  font-weight: 300;
+  width: 85%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.jumbotron .btn-outline-inverse {
+  color: rgba(120, 53, 15, 1);
+  background-color: rgba(250, 226, 159, 1);
+  /* border-color: #fff; */
+  padding: 10px 50px;
+}
+
+.jumbotron .btn-outline-inverse:hover {
+  /* color: #03a7dd; */
+  background-color: rgba(247, 211, 111, 1);
+  /* border-color: #fff; */
+}
+
+.md-guide-feature .btn-lg {
+  color: rgba(26, 77, 119, 1);
+  background-color: rgba(186, 215, 240, 1);
+}
+
+/* .md-guide-feature .btn-lg:hover {
+  color: #fff;
+  background-color: #03a7dd;
+} */
+
+.md-guide-feature {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  background-color: #fff;
+}
+
+.row {
+  margin-top: -15px;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.md-guide-feature p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
+}
+
+.icon {
+  font-size: 80px;
+  color: #03a7dd;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.lead {
+  font-weight: 200;
+  font-size: 19px;
+  color: #555;
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.col-sm-4 p {
+  font-size: 15px;
+  font-weight: 300;
+  color: #555;
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.half-rule {
+  width: 100px;
+  margin: 40px auto;
+}
+
+.site-footer {
+  padding-top: 35px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: -27px;
+  color: rgba(17, 24, 39, 1);
+  /* background-color: #dbdbdb; */
+  background-color: rgba(244, 250, 252, 1);
+}
+
+@media (max-width: 480px) {
+  .jumbotron p {
+    font-size: 20px;
+  }
+  .index_logo {
+    width: 120px;
+  }
+  .h2,
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1.2rem;
+  }
+}

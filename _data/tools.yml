@@ -1,0 +1,102 @@
+# Each tool has YAML front matter describing the tool's properties.
+# The fields are:
+
+headings:
+  name: العناوين
+  link: /basic-syntax/#العناوين
+
+paragraphs:
+  name: الفقرات
+  link: /basic-syntax/#الفقرات-1
+
+line-breaks:
+  name: فواصل الأسطر
+  link: /basic-syntax/#فواصل-الأسطر
+
+bold:
+  name: سُمْك النص
+  link: /basic-syntax/#سُمْك-النص
+
+italic:
+  name: إمالة النص
+  link: /basic-syntax#إمالة-النص
+
+blockquotes:
+  name: الاقتباسات
+  link: /basic-syntax#الاقتباسات-1
+
+ordered-lists:
+  name: القوائم المرقّمة (المرتّبة)
+  link: /basic-syntax#القوائم-المرقّمة-المرتّبة
+
+unordered-lists:
+  name: القوائم المنقّطة (غير المرتّبة)
+  link: /basic-syntax#القوائم-المنقّطة-غير-المرتّبة
+
+code:
+  name: الأكواد البرمجية
+  link: /basic-syntax#الأكواد-البرمجية
+
+horizontal-rules:
+  name: فواصل الأسطر
+  link: /basic-syntax/#فواصل-الأسطر
+
+links:
+  name: الروابط
+  link: /basic-syntax/#الروابط
+
+images:
+  name: الصور
+  link: /basic-syntax/#الصور-1
+
+tables:
+  name: الجداول
+  link: /extended-syntax/#الجداول
+
+fenced-code-blocks:
+  name: الكتل البرمجية المسوّرة
+  link: /extended-syntax/#الكتل-البرمجية-المسوّرة
+
+syntax-highlighting:
+  name: تلوين الأكواد البرمجية
+  link: /extended-syntax/#إبراز-الأكواد-البرمجية-عبر-تلوينها-تبعًا-لكل-لغة
+
+footnotes:
+  name: الحواشي السفلية
+  link: /extended-syntax/#الحواشي-السفلية
+
+heading-ids:
+  name: معرفّات العنوان
+  link: /extended-syntax/#معرفّات-العنوان
+
+definition-lists:
+  name: قوائم التعريف
+  link: /extended-syntax/#قوائم-التعريف
+
+strikethrough:
+  name: النص المشطوب
+  link: /extended-syntax/#النص-المشطوب
+
+task-lists:
+  name: قوائم المهام
+  link: /extended-syntax/#قوائم-المهام
+
+emoji-cp:
+  name: نسخ ولصق الرموز التعبيرية
+  link: /extended-syntax/#نسخ-ولصق-الرموز-التعبيرية
+
+emoji-sc:
+  name: الرموز التعبيرية (الإيموجي)
+  link: /extended-syntax/#الرموز-التعبيرية-الإيموجي
+
+auto-url-linking:
+  name: الربط التلقائي للروابط
+  link: /extended-syntax/#الربط-التلقائي-للروابط
+
+disabling-auto-url:
+  name: تعطيل الربط التلقائي للروابط
+  link: /extended-syntax/#الربط-التلقائي-للروابط
+
+html:
+  name: HTML
+  link: /basic-syntax/#html

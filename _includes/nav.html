@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-blue mdg-nav">
+  <div class="container">
+    <a class="navbar-brand" href="/" style="margin-top: 2px; margin-bottom: 3px">
+      <img src="/assets/images/markdown-mark-white.svg" height="23" class="align-top d-inline-block" alt="دليل ماركداون"
+           style="margin-top: 4px; padding-left: 10px">
+      دليل ماركداون
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin-top: 2px">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link {% if page.title == 'البداية' %}active{% endif %}"
+           href="/getting-started/">البداية</a>
+        <a class="nav-item nav-link {% if page.title == 'ملخّصات مرجعية' %}active{% endif %}"
+           href="/cheat-sheet/">المرجع السريع</a>
+        <a class="nav-item nav-link {% if page.title == 'القواعد الأساسيّة' %}active{% endif %}"
+           href="/basic-syntax/">القواعد الأساسية</a>
+        <a class="nav-item nav-link {% if page.title == 'القواعد الموسّعة' %}active{% endif %}"
+           href="/extended-syntax/">القواعد الموسّعة</a>
+        <a class="nav-item nav-link {% if page.url contains 'أدوات' %}active{% endif %}" href="/tools/">الأدوات</a>
+        <a class="nav-item nav-link" href="https://www.dawin.io/" target="_blank">محرر النصوص</a>
+        <!-- <a class="nav-item nav-link {% if page.title == 'The Markdown Guide Book' %}active{% endif %}"
+           href="/book/">Book</a> -->
+      </div>
+    </div>
+    <form class="mt-2 form-inline d-none d-lg-inline-block mt-md-0">
+      <input type="text" class="form-control" id="search-input" placeholder="البحث"
+             style="margin-top:0;text-align: right;">
+    </form>
+  </div>
+</nav>

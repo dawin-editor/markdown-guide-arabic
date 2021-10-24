@@ -1,0 +1,239 @@
+/* @import url(//cdn.rawgit.com/rtaibah/dubai-font-cdn/master/dubai-font.css); */
+@import url(//fonts.googleapis.com/earlyaccess/notonaskharabicui.css);
+@import url("search.css");
+@import url("syntax.css");
+
+html,
+body {
+  font-family: "Noto Naskh Arabic UI", sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: 500;
+  padding-top: 20px;
+  color: #2368a0;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  padding-top: 20px;
+  color: rgba(120, 53, 15, 1);
+}
+p,
+li,
+ol {
+  font-size: 18px;
+}
+
+code,
+kbd,
+pre,
+samp {
+  /* unicode-bidi: inherit; */
+  unicode-bidi: plaintext;
+}
+
+.text-blue,
+a {
+  color: #2368a0;
+}
+.bg-blue {
+  background-color: #2368a0;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(225, 247, 251, 0.9);
+}
+
+.mdg-nav {
+  font-size: 0.9rem;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+  font-size: 3.2rem;
+  margin-top: -45px;
+}
+
+.jumbotron p {
+  padding: 5px 0 0 0;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: #6c757d;
+}
+
+@media (max-width: 576px) {
+  .jumbotron p {
+    padding: 5px 0 0 0;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  .jumbotron h1 {
+    font-size: 1.5rem;
+    margin-top: 0px;
+  }
+}
+
+.jumbotron {
+  background: linear-gradient(
+    0deg,
+    rgba(235, 246, 250, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  color: rgb(36, 36, 36);
+  padding: 60px 0 40px 0;
+  border-radius: 0;
+}
+
+.page-header {
+  font-weight: 600;
+}
+
+.list-group {
+  padding: 45px 0;
+}
+
+.page-header .anchorjs-link {
+  text-decoration: none;
+}
+
+.anchorjs-link {
+  padding-right: 0.375em !important;
+  padding-left: unset !important;
+}
+
+h2 .anchorjs-link {
+  text-decoration: none;
+}
+
+h3 .anchorjs-link {
+  text-decoration: none;
+}
+
+h4 .anchorjs-link {
+  text-decoration: none;
+}
+
+.site-footer {
+  padding-top: 35px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: -27px;
+  color: rgba(17, 24, 39, 1);
+  /* background-color: #dbdbdb; */
+  background-color: rgba(244, 250, 252, 1);
+}
+
+.about {
+  padding-top: 45px;
+  font-size: 21px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.panel-default {
+  margin-top: 50px;
+}
+
+/* css for the sidebar */
+/* https://afeld.github.io/bootstrap-toc/ */
+
+nav[data-toggle="toc"] {
+  padding-top: 28px;
+}
+
+nav[data-toggle="toc"] .nav > li > a:hover,
+nav[data-toggle="toc"] .nav-link.active,
+nav[data-toggle="toc"] .nav-link.active:focus,
+nav[data-toggle="toc"] .nav-link.active:hover,
+nav[data-toggle="toc"] .nav > li > a:focus {
+  color: #03a7dd;
+  border-right: 1px solid #03a7dd;
+}
+nav[data-toggle="toc"] .nav > .active > a,
+nav[data-toggle="toc"] .nav > .active:hover > a,
+nav[data-toggle="toc"] .nav > .active:focus > a {
+  color: #03a7dd;
+  border-right: 2px solid #03a7dd;
+}
+
+/* small screens */
+@media (max-width: 768px) {
+  /* override the Affix plugin so that the navigation isn't sticky */
+  nav.affix[data-toggle="toc"] {
+    position: static;
+  }
+}
+
+.footnotes {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(238, 238, 238);
+}
+
+.highlight {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 1px;
+  margin-bottom: 20px;
+}
+
+.form-control-lg {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  height: 2.5rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.3rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+textarea {
+  height: 250px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-right: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 1em 10px 0.1em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+code {
+  color: #212529;
+}
+
+@media (max-width: 480px) {
+  .jumbotron {
+    padding: 26px 0 26px 0;
+  }
+  .h2,
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1.2rem;
+  }
+  p,
+  li,
+  ol {
+    font-size: 16px;
+  }
+}
