@@ -47,7 +47,7 @@ additional-examples:
     <tbody>
       <tr>
         <td>
-          <code class="highlighter-rouge">## عنوان من المستوى الأول</code>
+          <code class="highlighter-rouge"># عنوان من المستوى الأول</code>
         </td>
         <td><code class="highlighter-rouge">&lt;h1&gt;عنوان من المستوى الأول&lt;/h1&gt;</code></td>
         <td>
